@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <button type="button" class="btn btn-secondary btn-lg" ng-click="returnUserList()">Back</button>
+                <br>
+
+                <h4 class="card-title">Cración de usuario</h4>
+                <h6 class="card-subtitle">Add <code>users</code></h6>
+                <form class="form-material m-t-40">
+                    <div class="form-group">
+                        <label>Name<span class="help"> e.g. "George deo"</span></label>
+                        <input type="text" class="form-control form-control-line" value="" ng-model="name"> </div>
+                    <div class="form-group">
+                        <label for="example-email">Email <span class="help"> e.g. "example@gmail.com"</span></label>
+                        <input type="email" id="example-email2" name="example-email" class="form-control" placeholder="Email" ng-model="email"> </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" value="" ng-model="pwd"> </div>
+
+                    <button class="btn btn-info btn-lg btn-block text-uppercase btn-rounded" ng-click="sendPostData()">Add user</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
